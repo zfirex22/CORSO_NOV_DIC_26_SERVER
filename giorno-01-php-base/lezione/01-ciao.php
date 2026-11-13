@@ -13,5 +13,5 @@ echo "Ciao dalla biblioteca!\n"; // \n = a capo
 
 // ogni istruzione finisce con il punto e virgola (in PHP è obbligatorio)
 echo "Versione di PHP: " . PHP_VERSION . "\n"; // il punto unisce le stringhe
-
+echo "scritto da me";
 // Un file con solo PHP inizia con <?php e non ha il tag di chiusura.

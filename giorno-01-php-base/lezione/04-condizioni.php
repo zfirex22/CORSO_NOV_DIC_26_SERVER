@@ -17,7 +17,7 @@ if ($giorniRitardo === 0) {
 }
 
 // && (e), || (o), ! (non): come in JavaScript
-$tesseraValida = true;
+$tesseraValida = false;
 $copie = 0;
 if ($tesseraValida && $copie > 0) {
     echo "Prestito possibile.\n";
@@ -25,12 +25,21 @@ if ($tesseraValida && $copie > 0) {
     echo "Prestito non possibile.\n";
 }
 
+$eta = 65;
+if ($tesseraValida || $eta>=65){
+    echo "Prestito 2 possibile.\n";
+} else {
+    echo "Prestito 2 non possibile.\n";
+}
+
+
+
 // ternario
 $stato = $copie > 0 ? "disponibile" : "in prestito";
 echo "Il libro è $stato.\n";
 
 // match: sceglie un valore in base a un altro. Più compatto di tanti elseif.
-$genere = "Giallo";
+$genere = "Fantascienza";
 $scaffale = match ($genere) {
     "Romanzo" => "A",
     "Giallo", "Thriller" => "B",
