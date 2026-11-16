@@ -1,0 +1,8 @@
+body { font-family: Arial, sans-serif; margin: 0; color: #222; }
+header { background: #0b2e63; padding: 12px 20px; }
+header a { color: white; text-decoration: none; }
+main { max-width: 900px; margin: 0 auto; padding: 16px; }
+table { width: 100%; border-collapse: collapse; }
+th, td { text-align: left; padding: 8px; border-bottom: 1px solid #ddd; }
+.esaurito { color: #999; }
+footer { text-align: center; color: #666; padding: 16px; }

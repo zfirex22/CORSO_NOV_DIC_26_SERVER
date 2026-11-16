@@ -1,0 +1,20 @@
+<?php
+// I dati del catalogo: gli stessi 15 libri usati in JavaScript e React.
+// Dal giorno 6 arriveranno dal database.
+return [
+    ['id' => 1, 'titolo' => 'Il barone rampante', 'autore' => 'Italo Calvino', 'anno' => 1957, 'pagine' => 270, 'genere' => 'Romanzo', 'disponibile' => true],
+    ['id' => 2, 'titolo' => 'Le città invisibili', 'autore' => 'Italo Calvino', 'anno' => 1972, 'pagine' => 168, 'genere' => 'Romanzo', 'disponibile' => false],
+    ['id' => 3, 'titolo' => 'Marcovaldo', 'autore' => 'Italo Calvino', 'anno' => 1963, 'pagine' => 160, 'genere' => 'Racconti', 'disponibile' => true],
+    ['id' => 4, 'titolo' => 'La storia', 'autore' => 'Elsa Morante', 'anno' => 1974, 'pagine' => 660, 'genere' => 'Romanzo', 'disponibile' => true],
+    ['id' => 5, 'titolo' => 'L\'isola di Arturo', 'autore' => 'Elsa Morante', 'anno' => 1957, 'pagine' => 400, 'genere' => 'Romanzo', 'disponibile' => false],
+    ['id' => 6, 'titolo' => 'Il sistema periodico', 'autore' => 'Primo Levi', 'anno' => 1975, 'pagine' => 240, 'genere' => 'Racconti', 'disponibile' => true],
+    ['id' => 7, 'titolo' => 'Se questo è un uomo', 'autore' => 'Primo Levi', 'anno' => 1947, 'pagine' => 220, 'genere' => 'Saggio', 'disponibile' => true],
+    ['id' => 8, 'titolo' => 'Il nome della rosa', 'autore' => 'Umberto Eco', 'anno' => 1980, 'pagine' => 503, 'genere' => 'Giallo', 'disponibile' => true],
+    ['id' => 9, 'titolo' => 'Il pendolo di Foucault', 'autore' => 'Umberto Eco', 'anno' => 1988, 'pagine' => 509, 'genere' => 'Romanzo', 'disponibile' => false],
+    ['id' => 10, 'titolo' => 'Lessico famigliare', 'autore' => 'Natalia Ginzburg', 'anno' => 1963, 'pagine' => 230, 'genere' => 'Romanzo', 'disponibile' => true],
+    ['id' => 11, 'titolo' => 'Il giorno della civetta', 'autore' => 'Leonardo Sciascia', 'anno' => 1961, 'pagine' => 130, 'genere' => 'Giallo', 'disponibile' => true],
+    ['id' => 12, 'titolo' => 'A ciascuno il suo', 'autore' => 'Leonardo Sciascia', 'anno' => 1966, 'pagine' => 160, 'genere' => 'Giallo', 'disponibile' => false],
+    ['id' => 13, 'titolo' => 'La donna della domenica', 'autore' => 'Fruttero e Lucentini', 'anno' => 1972, 'pagine' => 450, 'genere' => 'Giallo', 'disponibile' => true],
+    ['id' => 14, 'titolo' => 'Gita al faro', 'autore' => 'Virginia Woolf', 'anno' => 1927, 'pagine' => 230, 'genere' => 'Romanzo', 'disponibile' => true],
+    ['id' => 15, 'titolo' => 'Una stanza tutta per sé', 'autore' => 'Virginia Woolf', 'anno' => 1929, 'pagine' => 160, 'genere' => 'Saggio', 'disponibile' => true],
+];
