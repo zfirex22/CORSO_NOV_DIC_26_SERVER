@@ -13,6 +13,8 @@ $libri = require __DIR__ . '/libri.php';   // libri.php restituisce l'array con 
 // $_GET contiene i parametri dell'indirizzo: index.php?q=calvino -> $_GET['q'] vale "calvino"
 // ?? '' : se il parametro manca, stringa vuota (senza, PHP darebbe un Warning)
 $q = trim($_GET['q'] ?? '');
+print_r ($_GET);
+print_r ($_POST);
 
 if ($q !== '') {
     $libri = array_filter($libri, fn($l) =>
@@ -21,7 +23,7 @@ if ($q !== '') {
 }
 
 $titoloPagina = 'Catalogo';
-require __DIR__ . '/parti/testata.php';
+require_once __DIR__ . '/parti/testata.php';
 ?>
 
 <h1>Catalogo (<?= count($libri) ?> libri)</h1>
